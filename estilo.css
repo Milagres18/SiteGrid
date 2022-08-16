@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Montserrat:wght@900&family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+* {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffd0db;
+}
+
+footer {
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: 'Open Sans';
+    padding-top: 40px;
+    color: #fff;
+    z-index: 15;
+
+}
+
+#principal {
+    background:#5CE1E6; 
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: grid;
+    justify-content: start;
+    z-index: 10;   
+    font-family: 'Work Sans', sans-serif
+}
+
+#principal a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+#cabecalho {
+    color: white;
+    padding: 10px;
+}
+
+#legenda {
+    height: 60px;
+    background-color: black;
+    position: static;
+    margin-top: -9.7px;
+}
+
+#FeM {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 5%;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 30px;
+}
+
+#item1 #item2{
+    max-width: 100%;
+    -moz-transition: all 700ms;
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+#item1:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+#item2:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+
+.lista {
+    margin: 70px;
+    display: inline;
+    font-size: 18px;
+}
+
+.pijamas {
+   width: 100%;
+}
+
+.buscar {
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.lupa {
+    position: absolute;
+    left: 1650px;
+    bottom: 8px;
+}
+
+.cara {
+    position: absolute;
+    left: 1730px;
+    bottom: 8px;
+}
+
+.lupa:hover {
+    cursor: pointer;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 25px;
+}
+
+.pop {
+    margin-top: 50px;
+    margin-left: 19%;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.pop:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.categoria {
+    margin-top: 110px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    font-size: 20px;
+}
+
+.anderline {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.redes {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.redes li {
+    margin: 0 10px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes a i {
+    font-size: 1.1em;
+    transition: color .4s ease;
+}
+
+.redes a:hover i {
+    color: aqua;
+}
+
+.sobre {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sobre:hover {
+    color: aqua;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+/PAGINAS DE PRODUTOS FEMINIOS/
+
+.desconto {
+    background: black;
+    padding: 30px;
+    margin: 20px 9.5%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.black p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    max-width: 370px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    margin-bottom: 250px;
+}
+
+.polaroid {
+    background: #ffd0db;
+    padding: 15px 15px 40px;
+    display: block;
+   
+}
+
+.photo {
+    width: 375px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 30px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.photo:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.titulo-compra {
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    padding: 15px 10px;
+}
+
+.caption {
+    padding: 15px 15px;
+}
+
+.link-compra {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 15px;
+}
+
+.link-compra:hover {
+    color: white;
+}
